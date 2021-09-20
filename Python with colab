@@ -1,0 +1,47 @@
+!python --version # If you want to know which version you're in it
+
+
+
+
+x = 3 # to identify the variable we don't need to write " " 
+
+
+
+
+print(x, type(x)) # Here you will know what the type of your varible 
+
+
+print(x + 1)   # Addition
+print(x - 1)   # Subtraction
+print(x * 2)   # Multiplication
+print(x ** 3)  # Exponentiation      # All of this called Operations 
+
+
+
+x += 1   # Here it will be add 1 to your x number that you're wrote earlier 
+print(x)
+x *= 2  #  Here we will do multiplication the x number 
+print(x)
+
+
+
+
+y = 2.5
+print(type(y))
+print(y, y + 1, y * 2, y ** 2) # It will print the tybe first then  y number with the (+ * ** ) Operations and the benefit of (,)is to make concatenation between them
+
+
+
+
+
+t, f = True, False
+print(type(t))  # it will print bool means boolean
+
+
+
+print(t and f) # Logical AND;   # F
+print(t or f)  # Logical OR;    #T
+print(not t)   # Logical NOT;  # F
+print(t!= f)  # Logical XOR;  # T
+
+
